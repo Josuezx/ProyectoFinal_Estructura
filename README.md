@@ -48,19 +48,32 @@ Integración y Pruebas: Integración de la lógica de los algoritmos con la inte
 
 Capturas Implementacion de la UI
 En la interfaz primeramente creamos el laberinto ingresando sus filas y columnas posteriormente ingresamos los puntos iniciales y punto final es decir desde donde va iniciar el recorrido o camino y hasta donde termina 
+
 ![image](https://github.com/user-attachments/assets/a3d6d7f6-c5eb-4ecc-b41c-4e379999e0f2)
+
 Laberinto Creado se muestra una matriz con ceros ya que aun no seleccionamos el metodo
+
 ![image](https://github.com/user-attachments/assets/45b4c3c3-3f04-49bd-ac00-e934f5534e73)
+
 Laberinto despues de seleccionar metodo Recursivo
+
 ![image](https://github.com/user-attachments/assets/332eaa52-8109-4fcb-8a4c-80d92f88f0fc)
+
+
 Aqui una aclaracion cada vez que queremos seleccionar un metodo diferente tenemos que nuevamente crear laberinto para restablecer la matriz a ceros y posterior seleccionamos el metodo para el laberinto.
+
+
 Laberinto metodo Cache
 ![image](https://github.com/user-attachments/assets/3f8b96b0-fa50-4d09-b0c9-e73cdd29eee1)
-Laberinto metodo BFS
-![image](https://github.com/user-attachments/assets/02448e6e-3ccf-439f-b655-a15c4d5b7e88)
-Laberinto metodo DFS
-![image](https://github.com/user-attachments/assets/fdb99490-1aed-4b1e-a40e-581491a7457e)
 
+
+Laberinto metodo BFS
+
+![image](https://github.com/user-attachments/assets/02448e6e-3ccf-439f-b655-a15c4d5b7e88)
+
+Laberinto metodo DFS
+
+![image](https://github.com/user-attachments/assets/fdb99490-1aed-4b1e-a40e-581491a7457e)
 
 
 
