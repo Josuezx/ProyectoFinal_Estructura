@@ -3,13 +3,14 @@
 JOSUE GONZALEZ
 DENNIS ANGAMARCA
 
-LABERINTO - Búsqueda de Caminos
+LABERINTO - Búsqueda de Caminos: 
 Este proyecto implementa una solución para encontrar el camino más corto en un laberinto utilizando varios algoritmos de búsqueda. La aplicación permite a los usuarios definir un laberinto, especificar puntos de inicio y fin, y encontrar el camino más corto utilizando diferentes algoritmos de búsqueda. Los resultados se visualizan en una interfaz gráfica de usuario (GUI) desarrollada en Java.
 
-Descripción del Problema
+Descripción del Problema: 
 El objetivo es encontrar el camino más corto en un laberinto representado como una matriz bidimensional. Cada celda en la matriz puede ser transitada (indicada por '0') o bloqueada (indicada por '2'). La tarea es desarrollar un sistema que permita a los usuarios definir el laberinto, establecer un punto de inicio y un punto final, y encontrar el camino más corto entre estos dos puntos. Los resultados deben ser presentados en la interfaz gráfica de usuario en lugar de solo en la consola.
 
 Propuesta de Solución
+
 Marco Teórico
 Programación Dinámica:
 La programación dinámica es una técnica de diseño de algoritmos que resuelve problemas complejos descomponiéndolos en subproblemas más simples y almacenando los resultados de estos subproblemas para evitar cálculos repetidos.
@@ -19,7 +20,7 @@ BFS es un algoritmo que explora los nodos de un grafo nivel por nivel. Empieza d
 DFS (Depth-First Search):
 DFS explora los nodos de un grafo en profundidad, avanzando lo más lejos posible a lo largo de una rama antes de retroceder. Utiliza una pila para rastrear los nodos visitados. Aunque no garantiza el camino más corto, es útil para explorar todos los caminos posibles. Su complejidad también es 
 
-Descripción de la Propuesta de Solución
+Descripción de la Propuesta de Solución:
 La solución desarrollada incluye una aplicación en Java con una interfaz gráfica que permite:
 
 Configurar el Laberinto: Los usuarios pueden definir el tamaño del laberinto y configurar las celdas como transitables o bloqueadas.
@@ -40,13 +41,13 @@ Memoización o Cache: Variante de búsqueda en profundidad con almacenamiento de
 BFS: Implementación de búsqueda en anchura para encontrar el camino más corto.
 DFS Iterativo: Búsqueda en profundidad utilizando una pila.
 
-Criterios por Integrante
+Criterios por Integrante:
 Cada miembro del equipo contribuyó en áreas específicas del proyecto:
 Algoritmos: Implementación y prueba de los algoritmos de búsqueda.
 Interfaz Gráfica: Desarrollo de la GUI utilizando Swing.
 Integración y Pruebas: Integración de la lógica de los algoritmos con la interfaz gráfica y pruebas para asegurar el correcto funcionamiento del sistema.
 
-Capturas Implementacion de la UI
+Capturas Implementacion de la UI:
 En la interfaz primeramente creamos el laberinto ingresando sus filas y columnas posteriormente ingresamos los puntos iniciales y punto final es decir desde donde va iniciar el recorrido o camino y hasta donde termina 
 
 ![image](https://github.com/user-attachments/assets/a3d6d7f6-c5eb-4ecc-b41c-4e379999e0f2)
@@ -80,5 +81,5 @@ Laberinto metodo DFS
 
 
 
-Conclusiones
+Conclusiones:
 Entre los algoritmos evaluados, BFS es el más adecuado para encontrar el camino más corto en un laberinto no ponderado debido a su capacidad para explorar nodos nivel por nivel, garantizando que el primer camino encontrado al objetivo es el más corto. DFS, aunque útil para explorar rutas profundas, no garantiza el camino más corto y puede ser menos eficiente que BFS. La búsqueda recursiva y la memoización o cache ofrecen variantes útiles de DFS, pero con limitaciones en términos de eficiencia y garantía de resultados.
